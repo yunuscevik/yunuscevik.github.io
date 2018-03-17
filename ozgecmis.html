@@ -61,9 +61,7 @@
 	</div>
 	<div class="kolon">
 		<br><br>
-		<span class="kolon" style="color:#FF0000;">
-		 	<!-- #BeginDate format:Am3m -->01/26/2018  3:50<!-- #EndDate -->
-		</span>
+		<span class="kolon" style="color:#000000;" id="dateTime"></span>
 		<br>
 		<div class="round">
 			<img src="r1.jpg" width="280" height="280">
@@ -76,4 +74,8 @@
   </div>
 </body>
 </center>
+<script>
+	var d = new Date();
+	document.getElementById("dateTime").innerHTML = d;
+</script>	
 </html>
