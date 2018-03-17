@@ -92,9 +92,7 @@
 </div>
 <div class="margin">
 	<br><br>
-	<span class="kolon" style="color:#FF0000;">
-		<!-- #BeginDate format:Am3m -->01/26/2018  3:50<!-- #EndDate -->
-	</span>
+	<span class="kolon" style="color:#FF0000;" onload="GetDateTime();"></span>
 	<center>
 		<div class="round">
 			<img src="r1.jpg"  width="300" height="300">
@@ -106,6 +104,14 @@
 </div>
 
 </body>
+<script type="text/javascript" language="javascript">
+function GetDateTime() {
+
+    var param1 = new Date();
+    document.getElementById('txtDateOfIncorporation').value = param1;
+
+}
+</script>
 </html>
 
 
